@@ -27,7 +27,7 @@ class Hotel(models.Model):
     balance = models.IntegerField()
     costToBusiness= models.IntegerField()
     customer = models.ForeignKey(Customer,on_delete=models.CASCADE)
-'''This is new line'''
+
 '''This line is added by another developer'''
 class Waiter(models.Model):
     aadharNo = models.BigIntegerField(primary_key=True)
